@@ -1,36 +1,8 @@
-````md
 # User Management App
 
 A modern full-stack User Management application built using React, Express.js, MongoDB, and Node.js.
 
-This project allows users to:
-
-- Add new users
-- View all users
-- View individual user details
-
-The application follows a clean frontend/backend architecture and demonstrates REST API integration with a React frontend.
-
----
-
-# Tech Stack
-
-## Frontend
-
-- React.js
-- React Router
-- React Hook Form
-- Tailwind CSS
-- Vite
-
-## Backend
-
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- CORS
-- dotenv
+This project demonstrates REST API integration, frontend routing, form handling, and MongoDB database operations using a clean frontend/backend architecture.
 
 ---
 
@@ -38,28 +10,50 @@ The application follows a clean frontend/backend architecture and demonstrates R
 
 ## Frontend Features
 
-- Responsive UI
-- React Router navigation
-- User creation form
-- User listing page
-- User details page
-- Component-based architecture
+* Responsive user interface
+* React Router navigation
+* Add new users
+* View all users
+* View individual user details
+* Component-based architecture
+* Form handling using React Hook Form
 
 ## Backend Features
 
-- REST API architecture
-- MongoDB integration
-- User schema with Mongoose
-- Express routing
-- JSON request handling
-- CORS support
+* RESTful API architecture
+* MongoDB database integration
+* Mongoose schema modeling
+* Express.js routing
+* JSON request handling
+* CORS configuration
+
+---
+
+# Tech Stack
+
+## Frontend
+
+* React.js
+* React Router DOM
+* React Hook Form
+* Tailwind CSS
+* Vite
+
+## Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* dotenv
+* CORS
 
 ---
 
 # Folder Structure
 
 ```txt
-user-management-app/
+week-8/
 │
 ├── frontend/
 │   ├── src/
@@ -77,13 +71,13 @@ user-management-app/
 │   └── package.json
 │
 └── README.md
-````
+```
 
 ---
 
-# Installation
+# Installation & Setup
 
-## Clone Repository
+##  Clone the Repository
 
 ```bash
 git clone https://github.com/harishkodimala/week-8.git
@@ -91,9 +85,9 @@ git clone https://github.com/harishkodimala/week-8.git
 
 ---
 
-# Backend Setup
+#  Backend Setup
 
-## Navigate to backend
+## Navigate to backend folder
 
 ```bash
 cd backend
@@ -120,9 +114,9 @@ node server.js
 
 ---
 
-# Frontend Setup
+#  Frontend Setup
 
-## Navigate to frontend
+## Navigate to frontend folder
 
 ```bash
 cd frontend
@@ -134,7 +128,7 @@ cd frontend
 npm install
 ```
 
-## Start frontend
+## Start frontend server
 
 ```bash
 npm run dev
@@ -142,7 +136,7 @@ npm run dev
 
 ---
 
-# API Endpoints
+#  API Endpoints
 
 ## Create User
 
@@ -158,35 +152,14 @@ GET /user-router/users
 
 ---
 
-# Future Improvements
-
-* Edit user functionality
-* Delete user functionality
-* Authentication & Authorization
-* Search & Filter users
-* Pagination
-* Better form validation
-* Toast notifications
-* Deployment
-
----
-
-# Learning Outcomes
+#  Learning Outcomes
 
 This project helped in understanding:
 
-* MERN architecture
-* REST API integration
+* MERN stack architecture
+* REST API development
 * React routing
-* Form handling with React Hook Form
-* MongoDB operations
-* Full-stack application structure
+* Form handling using React Hook Form
+* MongoDB database operations
+* Full-stack project structure
 
----
-
-# Author
-
-Harish Kodimala
-
-```
-```
